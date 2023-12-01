@@ -1,3 +1,53 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: beige;
+}
+
+nav {
+  background-color: blanchedalmond;
+  border-bottom: 2px black solid;
+  height: 50px;
+  padding: 5px;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav a {
+  color: black;
+  font-size: 2em;
+  padding: 5px;
+}
+
+div {
+  width: 85%;
+  margin: auto;
+}
+
+section {
+  background-color: blanchedalmond;
+  padding: 10px;
+  border: 2px black solid;
+  margin: 5px;
+}
+
+section h2 {
+  margin-top: 2px;
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  margin-bottom: 1px;
+}
+
+img {
+  border: 2px solid black;
 }
